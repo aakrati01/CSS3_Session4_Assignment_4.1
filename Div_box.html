@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Div Box</title> <!--Title of the page-->
+	<style type="text/css"> /* for styling the font color and various properties */
+	/* first div */
+		div {
+			width: 300px;
+			border: 4px solid green;
+			padding: 10px;
+			margin: 0;
+			font-size: 15px;
+			text-align: center;
+		}
+		p{
+			font-size: 20px;
+			color: red;
+
+		}
+		/*pseudo property is used for the color change when moving cursor */
+		p:hover {
+			color: blue;
+			cursor: pointer;
+		}
+		#div2:hover {
+			background-color: grey;
+		}
+		
+	</style>
+</head>
+<body>
+	<H3>Move cursor on the text written in first Div box to see the font color change</H3> <!-- heading second-->
+	<div> <p> First div box </p> </div> <!-- creatind div-->
+	<br>
+	<br>
+	<h3>Move the cusor on the second div to see the background hovering.</h3><!--Third heading-->
+	<div id="div2">This is the Second div Box</div><!-- second div with its Id-->
+	
+</body>
+</html>
